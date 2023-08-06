@@ -1,0 +1,140 @@
+*{
+    margin: 0rem;
+    box-sizing: border-box;
+
+}
+html 
+{
+  font-size: 10px;
+}
+
+@media(max-width:998px)
+{
+  html{
+    font-size: 55%;
+  }
+}
+@media(max-width:768px)
+{
+  html{
+    font-size: 45%;
+  }
+}
+
+
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic
+{
+    position:relative;
+}
+.quote
+{
+    position: absolute;
+    top:30%;
+    left:50%;
+
+}
+.pic img
+{
+    height: 55rem;
+    width:100%;   
+}
+.biography
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.achieve {
+    width:30rem;
+    height:4rem;
+    position: relative;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: 2;
+    margin-left: 1rem;
+    margin-top: 0.2rem;
+    color:rgb(255, 255, 255);
+    background-color: black;
+    
+  }
+  
+  @keyframes example {
+    0%   { background-color:black; color:white;left:0rem; top:0rem;}
+    25%  { background-color:rgb(252, 252, 252); color:rgb(1, 1, 1); left:20rem; top:0rem;}
+    50%  {background-color:rgb(157, 157, 162); left:0rem; top:0rem;}
+    100% {background-color: black; color: beige;}
+  }
+  .achbox
+  {
+    padding: 1rem;
+    margin-top: 2rem;
+    width :45rem;
+    height:15rem;
+    border: 0.3rem solid black;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background-color: antiquewhite;
+  }
+  .uprachvbox
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .upper
+  {
+    background-color: lightgrey;
+  }
+  .about{
+    width:35rem;
+    height: 4rem;
+   margin-top: 0.2rem;;
+    background-color: black;
+    color: white;
+    
+  }
+  .upperacv
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .uprachvbox1
+  {
+    height:140rem;
+    width:70rem;
+    border: 0.4rem solid black;
+    margin-top: 1rem;
+    padding-left: 2rem;
+  }
+  .achbox1
+  {
+    padding: 1rem;
+    margin-top: 3rem;
+    width :65rem;
+    height:20rem;
+    border: 0.3rem solid black;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background-color: rgb(188, 176, 162);
+    color:rgb(34, 34, 34);
+  }
+  .uprachvbox1
+  {
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .footer
+  {
+    height:2rem;
+    width: auto;
+  }
